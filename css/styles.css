@@ -79,7 +79,7 @@ ul {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url("/images/elements.png");
+    background-image: url("../images/elements.png");
     opacity: 0.04;
     background-size: cover;
     background-position: center;
@@ -178,7 +178,7 @@ ul {
     width: 100%;
     padding-top: 90px;
     height: 800px;
-    background: url('/images/background.jpg') no-repeat center center;
+    background: url('../images/background.jpg') no-repeat center center;
     background-size: cover; /* Ensure the image covers the entire container */
     opacity: 0.3; /* Adjust the opacity here */
     z-index: -1; /* Ensure the ::after element is behind other content */
