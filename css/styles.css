@@ -205,7 +205,7 @@ ul {
 .section-3::before {
     content: '';
     position: absolute;
-    background-image: url(/images/background.jpg);
+    background-image: url(../images/background.jpg);
     inset: 0;
     opacity: 0.5;
     background-size: cover;
