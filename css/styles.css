@@ -79,6 +79,7 @@ ul {
     content: '';
     position: absolute;
     inset: 0;
+    background-image: url("../images/elements.png");
     opacity: 0.04;
     background-size: cover;
     background-position: center;
@@ -167,21 +168,18 @@ ul {
     min-height: 100px;
     width: 100%;
     overflow: hidden;
+    z-index: 2;
 }
 
 .section-1::after {
-    content: ""; /* Required to display the ::after element */
-    position: absolute; /* Position absolutely within the container */
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-top: 90px;
-    height: 800px;
-    background: url("/images/background.jpg") no-repeat center center;
-    background-size: cover; /* Ensure the image covers the entire container */
-    opacity: 0.3; /* Adjust the opacity here */
-    z-index: -1; /* Ensure the ::after element is behind other content */
-    overflow: hidden;
+    content: '';
+    position: absolute;
+    background-image: url("../images/background.jpg");
+    inset: 0;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
   }
 
 .section-2 {
@@ -204,6 +202,7 @@ ul {
 .section-3::before {
     content: '';
     position: absolute;
+    background-image: url("../images/background.jpg");
     inset: 0;
     opacity: 0.5;
     background-size: cover;
